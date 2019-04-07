@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-container {
+    width: 60%;
+    height: auto;
+    border: 2px solid #000000;
+    position: relative;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+}
+
+.carousel-slide img{
+    width: auto;
+    height: 500px;
+}
+.prev {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 5%;
+    font-size: 35px;
+    cursor: pointer;
+    z-index: 10;
+    opacity: 0.5;
+}
+
+.next {
+    position: absolute;
+    color: white;
+    top: 50%;
+    right: 5%;
+    font-size: 35px;
+    cursor: pointer;
+    z-index: 10;
+    opacity: 0.5;
+}
